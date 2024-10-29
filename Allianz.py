@@ -15,7 +15,7 @@ if st.session_state.show_form:
     with st.form("my_form"):
         # Título de la aplicación
         st.title("¡Bienvenido a Allianz Patrimonial!")
-        st.image("C:/Users/andre/allianz foto.png")
+        st.image("allianz foto.png")
         st.write(" Completa los siguientes datos para conocer las opciones de inversión")
         nombre = st.text_input("Nombre completo")
         poliza = st.text_input("Número de póliza")
